@@ -2,21 +2,18 @@
   "name": "shrinkydink",
   "version": "1.0.0",
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nlf/shrinkydink.git"
+  },
   "main": "index.js",
   "bin": {
     "shrinkydink": "bin/shrinkydink"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
   "author": "Nathan LaFreniere <quitlahok@gmail.com>",
   "license": "MIT",
-  "devDependencies": {
-    "code": "^1.4.0",
-    "lab": "^5.8.0"
-  },
   "dependencies": {
-    "minimist": "^1.1.1"
+    "minimist": "^1.2.0"
   }
 }
